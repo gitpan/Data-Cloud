@@ -5,7 +5,7 @@ all_from 'lib/Data/Cloud.pm';
 
 requires 'Carp';
 
-build_requires 'Test::More';
+build_requires 'Test::More' => 0.80;
 
 tests 't/*.t';
 

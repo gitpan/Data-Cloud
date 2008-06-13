@@ -3,7 +3,7 @@ abstract: Utility for word cloud.
 author: 
   - Naoki Okamura (Nyarla) <thotep@nayrla.net>
 build_requires: 
-  Test::More: 0
+  Test::More: 0.8
 distribution_type: module
 generated_by: Module::Install version 0.68
 license: perl
@@ -18,4 +18,4 @@ no_index:
 requires: 
   Carp: 0
 tests: t/*.t
-version: 0.01
+version: 0.02

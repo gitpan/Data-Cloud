@@ -1,4 +1,9 @@
 Revision history for Perl extension Data::Cloud
 
+0.02  Fri Jun 13 15:04:40 2008
+        - fix ranking of the rating method was improper
+        - fix 11_rating.t
+        - depended Text::More 0.80
+
 0.01  Thu Nov 15 15:38:35 2007
         - original version

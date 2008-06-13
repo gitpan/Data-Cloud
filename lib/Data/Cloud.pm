@@ -6,7 +6,7 @@ use warnings;
 use Carp ();
 use vars qw( $VERSION );
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub new {
     my ( $class, %args ) = @_;
@@ -148,7 +148,7 @@ sub rating {
 
     my $results = [];
     my $count   = $num;
-    my $rank    = $num;
+    my $rank    = $rate;
     for my $word ( sort { $self->data->{$b} <=> $self->data->{$a} } sort keys %{ $self->data } ) {
         push @{ $results }, +{
             name    => $word,
