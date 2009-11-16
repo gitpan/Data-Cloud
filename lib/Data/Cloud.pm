@@ -6,7 +6,7 @@ use warnings;
 use Carp ();
 use vars qw( $VERSION );
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub new {
     my ( $class, %args ) = @_;
@@ -316,7 +316,7 @@ Data is kept by the form as C<{ word => $count }>.
 
 =head1 AUTHOR
 
-Naoki Okamura (Nyarla) E<lt>thotep@nayrla.netE<gt>
+Naoki Okamura (Nyarla) E<lt>nyarla[:)]thotep.netE<gt>
 
 =head1 LICENSE
 
